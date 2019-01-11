@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cbweb-yield" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cbweb" target="1.5" />
+      <module name="cbweb-common" target="1.5" />
+      <module name="cbweb-register" target="1.5" />
+      <module name="cbweb-yield" target="1.5" />
+      <module name="cbweb-zuul" target="1.5" />
+      <module name="cbwebserver" target="1.5" />
+      <module name="config-server" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
